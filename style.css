@@ -1,0 +1,66 @@
+html {
+    min-height: 100%;
+    margin: 0% 10%;
+}
+body {
+    background-image: linear-gradient( to left top, red, #7c1515, #571111, #4b0e0e, #0e0505);
+    min-height: 100%;
+    background-attachment: fixed;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: auto;
+}
+#maintitle {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+} 
+.carrosimgs {
+    display: block;
+    margin: 5px auto;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: auto;
+}
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {   
+    color: goldenrod;
+}
+a:active{
+    color: white;
+}
+.iconiccars {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th {
+    border: 1px, solid, black;
+    padding: 5px 10px;
+    background-color: #ecb00c;
+}
+td {
+    border: 1px, solid, black;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
